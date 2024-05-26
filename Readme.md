@@ -2394,9 +2394,9 @@ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App.g
 
 
 - Source code: -> bash terminalde app in olduğu klasör içerisinde iken, "pwd" yazıp klasörün yolunu görebiliyoruz.
-        /home/umit8098/Project_Django_Rest_Framework_Flight_App
+        /home/umit8103/Project_Django_Rest_Framework_Stock_App_CH-13
 - Working directory: -> Source code kısmına yazdığımız yolu buraya da yazıyoruz.
-        /home/umit8098/Project_Django_Rest_Framework_Flight_App
+        /home/umit8103/Project_Django_Rest_Framework_Stock_App_CH-13
 - WSGI configuration file: Manuel configuration yaptığımız için bu WSGY (Web Server Gateway Interface) configuration u da kendimiz yapacağız. django application ile server arasındaki iletişimi sağlayan gateway. Bunda ayarlar yapmalıyız. sağ tıklayıp new tab ile yeni pencerede açıyoruz, Default olarak farmeworklerin ayar template leri var. 74-89 satırları arasında django kısmı var. Bunun haricindeki herşeyi siliyoruz, sadece django ile ilgili kısım kalıyor. İlk iki satır hariç yorumdan kurtarıyoruz.
 
 ```py
@@ -2419,16 +2419,16 @@ application = get_wsgi_application()
 
 ```
 
-- path kısmında bize manage.py ın yolunu vermemizi istiyor. Aslında source code umuzun olduğu path, biraz önce "pwd" ile almıştık, "/home/umit8098/Project_Django_Rest_Framework_Flight_App". Bunu path değişkenine tanımlıyoruz. Yani manage.py ımız bu klasörün içinde bunu söylüyoruz.
+- path kısmında bize manage.py ın yolunu vermemizi istiyor. Aslında source code umuzun olduğu path, biraz önce "pwd" ile almıştık, "/home/umit8103/Project_Django_Rest_Framework_Stock_App_CH-13". Bunu path değişkenine tanımlıyoruz. Yani manage.py ımız bu klasörün içinde bunu söylüyoruz.
 
 ```py
-path = '/home/umit8098/Project_Django_Rest_Framework_Flight_App'
+path = '/home/umit8103/Project_Django_Rest_Framework_Stock_App_CH-13'
 ```
 
-- os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'  -> settings klasörümüzün bulunduğu yeri belirtiyoruz. Bizim settings klasörümüz main in altında. buraya 'main.settings' yazıyoruz.
+- os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'  -> settings klasörümüzün bulunduğu yeri belirtiyoruz. Bizim settings klasörümüz core in altında. buraya 'core.settings' yazıyoruz.
 
 ```py
-os.environ['DJANGO_SETTINGS_MODULE'] = 'main.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'core.settings'
 ```
 
 
@@ -2441,7 +2441,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'main.settings'
   - kopyaladığımız path i Virtualenv kısmındaki bölüme yazıp tik e tıklıyoruz. env miz de hazır.
 
 ```py
-/home/umit8098/Project_Django_Rest_Framework_Flight_App/env
+/home/umit8103/Project_Django_Rest_Framework_Stock_App_CH-13/env
 ```
 
 
@@ -2454,7 +2454,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'main.settings'
     - SECRET_KEY tanımladık, 
     - DEBUG=True  (Önce True yazıyoruz, hataları görebilmek için. daha sonra False a çekebiliriz.)
     - settings klasörünün __init__.py daki env değişkeninin ismine ne verdiysek onu alıp .env file ında değişken ismi olarak kullanıyoruz. ENV_NAME
-    - ENV_NAME=dev  
+    - ENV_NAME=development  
         - prod ayarlarımızda db olarak postgresql var. bizim dev ayarlarını kullanmamız daha iyi. 
         - Ayrıca dev ayarlarını kullanırken de; debug.toolbar sadece localhost ta çalışıyor. Bu yüzden debug.toolbar ayarları ile development çalıştırılırsa hata verecektir. Bu hatayı almamak için dev.py daki debug.toolbar ayarlarını yoruma alıyoruz.
     - Bir de DJANGO_LOG_LEVEL=INFO ayarımız vardı onu da .env file ımıza ekliyoruz.
@@ -2494,7 +2494,7 @@ DATABASES = {
 ```py
 SECRET_KEY=o_zoo)sc$ef3bbctpryhi7pz!i)@)%s!ffg_zsxd^n+z+h5=7i
 DEBUG=True
-ENV_NAME=dev
+ENV_NAME=development
 DJANGO_LOG_LEVEL=INFO
 ```
 
@@ -2512,7 +2512,7 @@ python manage.py createsuperuser
 - admin panele giriyoruz,
 - statics ler olmadan, css ler olmadan sayfamız geldi. 
 - statics lerin görünmemesinin sebebi; django admin panel bir application ve bunun static file ları env içerisinde duruyor. Bunu localhost ta çalıştırdığımız zaman sıkıntı yaşamıyoruz ama canlı servera aldığımız zaman static root diye bir directory belirtmemiz gerekiyor. Static root, bütün environment ta olan static file ları veya application içerisinde varsa static file larımızı (css, javascript, image)  bunların hepsini tek bir klasör altında topluyor ve canlıdayken oradan çekiyor. Bu static ayarı nı yapmamız gerekiyor. Nasıl yapacağız;
-- dashboadr -> Cource code -> Go to directory -> main -> settings -> base.py  içine STATİC_URL = 'static' altına STATIC_ROOT = BASE_DIR / 'static' yazıyoruz.
+- dashboadr -> Cource code -> Go to directory -> core -> settings -> base.py  içine STATİC_URL = 'static' altına STATIC_ROOT = BASE_DIR / 'static' yazıyoruz.
 
 settings/base.py
 ```py
@@ -2526,14 +2526,14 @@ STATIC_ROOT = BASE_DIR / 'static'
 python manage.py collectstatic
 ```
 - bu komut çalıştırıldıktan sonra; 197 adet static file kopyalandı ve belirttiğimiz folder altında toplandı.
-" 197 static files copied to '/home/umit8098/Project_Django_Rest_Framework_Flight_App/main/static'. "
+" 197 static files copied to '/home/umit8098/Project_Django_Rest_Framework_Stock_App/core/static'. "
 
-- Şimdi dashboarda gidip, web kısmında Static files: kısmında URL altında URL ini (/static/),  ve Directory altında path ini giriyoruz. (path ini zaten bize vermişti -> 197 static files cop..... kısmının sonunda. (/home/umit8098/Project_Django_Rest_Framework_Flight_App/main/static))
+- Şimdi dashboarda gidip, web kısmında Static files: kısmında URL altında URL ini (/static/),  ve Directory altında path ini giriyoruz. (path ini zaten bize vermişti -> 197 static files cop..... kısmının sonunda. (/home/umit8098/Project_Django_Rest_Framework_Stock_App/core/static))
 - girdikten sonra ✔ işareti ile kaydetmeliyiz.
   
 ```py
 /static/
-/home/umit8098/Project_Django_Rest_Framework_Flight_App/main/static
+/home/umit8098/Project_Django_Rest_Framework_Stock_App/core/static
 ```
 
 - Bu işlemi yaptıktan sonra değişikliklerin algılanması için tekrardan Reload butonuna tıklıyoruz. Artık sayfalarımızın statics leri de geliyor.
