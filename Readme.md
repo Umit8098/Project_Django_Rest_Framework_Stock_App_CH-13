@@ -36,15 +36,7 @@
 
 ---
 
-![screenshot](project_screenshot/quiz_app_quiz.gif)
-
----
-
-![screenshot](project_screenshot/quiz_app_user.gif)
-
----
-
-![screenshot](project_screenshot/quiz_app_shema.jpg)
+![screenshot](project_screenshot/Stock_App_ERD.png)
 
 
 ## Built With
@@ -90,6 +82,24 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Stock_App_
 # example .env;
 
 SECRET_KEY =123456789abcdefg...
+
+# for development(dev) environments
+DEBUG =True
+
+# for production environments
+SQL_DATABASE={DB_NAME}
+SQL_USER={DB_USER_NAME}
+SQL_PASSWORD={DB_PASSWORD}
+SQL_HOST=localhost
+SQL_PORT=5432
+
+# for choices environment
+ENV=development
+# ENV = production
+
+# DJANGO_LOG_LEVEL=INFO
+DJANGO_LOG_LEVEL = WARNING
+# DJANGO_LOG_LEVEL=ERROR
 """
 
 # Run the app
@@ -105,6 +115,9 @@ SECRET_KEY =123456789abcdefg...
 
 ## Acknowledgements
 - [Django Rest Framework](https://www.django-rest-framework.org/)
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
+- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul 
 - [django-filter](https://django-filter.readthedocs.io/en/stable/)
 
 
