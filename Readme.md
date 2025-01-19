@@ -36,6 +36,11 @@
 
 ---
 
+- Stock_App Swagger-Redoc
+![screenshot](project_screenshot/Stock_App_Swagger_Redoc.gif)
+
+---
+
 - Stock_App User/Authentication Test On Postman
 ![screenshot](project_screenshot/Stock_App_User_Test.gif)
 
