@@ -41,6 +41,7 @@
 
 ---
 
+- Stock_App Project ERD Diagram
 ![screenshot](project_screenshot/Stock_App_ERD.png)
 
 
