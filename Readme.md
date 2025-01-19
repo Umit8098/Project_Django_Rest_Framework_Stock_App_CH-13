@@ -32,12 +32,14 @@
 
 ## Overview
 
-![screenshot](project_screenshot/quiz_app.gif)
+
+- Stock_App Swagger-Redoc
+![screenshot](project_screenshot/Stock_App_Swagger_Redoc.gif)
 
 ---
 
 - Stock_App Swagger-Redoc
-![screenshot](project_screenshot/Stock_App_Swagger_Redoc.gif)
+![screenshot](project_screenshot/Stock_App_STock_Test.gif)
 
 ---
 
