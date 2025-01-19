@@ -36,6 +36,7 @@
 
 ---
 
+- Stock_App User/Authentication Test On Postman
 ![screenshot](project_screenshot/Stock_App_User_Test.gif)
 
 ---
