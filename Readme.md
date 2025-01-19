@@ -38,8 +38,8 @@
 
 ---
 
-- Stock_App Swagger-Redoc
-![screenshot](project_screenshot/Stock_App_STock_Test.gif)
+- Stock_App Stock Test On Postman
+![screenshot](project_screenshot/Stock_App_Stock_Test.gif)
 
 ---
 
