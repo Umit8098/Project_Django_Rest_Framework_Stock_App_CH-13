@@ -36,6 +36,10 @@
 
 ---
 
+![screenshot](project_screenshot/Stock_App_User_Test.gif)
+
+---
+
 ![screenshot](project_screenshot/Stock_App_ERD.png)
 
 

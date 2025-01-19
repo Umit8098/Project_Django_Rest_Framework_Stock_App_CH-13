@@ -38,9 +38,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Flight API",
+      title="Stock_App API",
       default_version='v1',
-      description="Flight API Description",
+      description="Stock_App API Description",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="umitarat8098@gmail.com"),
       license=openapi.License(name="BSD License"),
