@@ -67,23 +67,33 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 ## Overview
 
 
-- Stock_App Swagger-Redoc
-![screenshot](project_screenshot/Stock_App_Swagger_Redoc.gif)
+- Project Swagger and Redoc Documentation Visual
+<!-- ![screenshot](project_screenshot/Stock_App_Swagger_Redoc.gif) -->
+<img src="project_screenshot/Stock_App_Swagger_Redoc.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
 
 ---
 
-- Stock_App Stock Test On Postman
-![screenshot](project_screenshot/Stock_App_Stock_Test.gif)
+- Stock_App testing on Postman
+<!-- ![screenshot](project_screenshot/Stock_App_Stock_Test.gif) -->
+<img src="project_screenshot/Stock_App_Stock_Test.gif" alt="Stock_App testing on Postman" width="400"/>
 
 ---
 
 - Stock_App User/Authentication Test On Postman
-![screenshot](project_screenshot/Stock_App_User_Test.gif)
+<!-- ![screenshot](project_screenshot/Stock_App_User_Test.gif) -->
+<img src="project_screenshot/Stock_App_User_Test.gif" alt="Stock_App User/Authentication Test On Postman" width="400"/>
 
 ---
 
 - Stock_App Project ERD Diagram
 ![screenshot](project_screenshot/Stock_App_ERD.png)
+<img src="project_screenshot/Stock_App_ERD.png" alt="Stock_App Project ERD Diagram" width="400"/>
+
+- API dokümantasyonları Swagger ve Redoc ile detaylandırılmıştır. İlgili linklere [Swagger](https://umit8103.pythonanywhere.com/swagger/) ve [Redoc](https://umit8103.pythonanywhere.com/redoc/) üzerinden ulaşabilirsiniz.
+
+- Stock Management App, kullanıcıların stok sistemini yönetebilmesi ve API dokümantasyonuyla kolay entegrasyon sağlaması için geliştirilmiş modern bir backend uygulamasıdır.
+- Kullanıcılar ve staff rollerine özgü CRUD işlemleri sunar.
+- API dokümantasyonları için Swagger ve Redoc kullanılmıştır.
 
 
 ## Built With
@@ -91,23 +101,32 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Djago Rest Framework
+- Swagger
+- Debug Toolbar
+- Logging
+- Redoc
+- PostgreSQL
 
 
 ## How To Use
 
 <!-- This is an example, please update according to your application -->
 
-To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Stock_App_CH-13) 
+- For online demo: [Swagger](https://umit8103.pythonanywhere.com/swagger/) veya [Redoc](https://umit8103.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
 
-When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
+- To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Stock_App_CH-13) 
 
-Complete the installation by uncommenting the appropriate package.
+- When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
+
+- Complete the installation by uncommenting the appropriate package.
 
 ---
 
-requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
+- Çevrimiçi demo için: [Swagger](https://umit8103.pythonanywhere.com/swagger/) veya [Redoc](https://umit8103.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
 
-Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
+- requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
+
+- Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
 ```bash
 # Clone this repository
