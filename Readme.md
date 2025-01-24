@@ -61,7 +61,7 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 3. API'leri Postman üzerinden test etmeye başlayın.
 
 **Postman Collection Linki:**  
-[Flight Reservation API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9c7e9dbb-cadb-4cb7-bb41-7399ad499c3e?action=share&creator=17531143)
+[Stock Management App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9c7e9dbb-cadb-4cb7-bb41-7399ad499c3e?action=share&creator=17531143)
 
 
 ## Overview
