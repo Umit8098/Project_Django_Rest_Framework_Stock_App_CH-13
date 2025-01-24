@@ -86,7 +86,7 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 ---
 
 - Stock_App Project ERD Diagram
-![screenshot](project_screenshot/Stock_App_ERD.png)
+<!-- ![screenshot](project_screenshot/Stock_App_ERD.png) -->
 <img src="project_screenshot/Stock_App_ERD.png" alt="Stock_App Project ERD Diagram" width="400"/>
 
 - API dokümantasyonları Swagger ve Redoc ile detaylandırılmıştır. İlgili linklere [Swagger](https://umit8103.pythonanywhere.com/swagger/) ve [Redoc](https://umit8103.pythonanywhere.com/redoc/) üzerinden ulaşabilirsiniz.
