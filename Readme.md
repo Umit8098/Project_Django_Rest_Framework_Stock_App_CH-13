@@ -28,6 +28,8 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
+  - [How to Install and Run](#how-to-install-and-run)
+  - [Test User Information](#test-user-information)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -159,6 +161,51 @@ Stock App, kullanıcıların stok sistemlerini kolayca yönetebilmesini ve API d
 
 - Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
+### How to Install and Run
+
+1. **clone the repository:**
+    ```bash
+    git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Stock_App_CH-13.git
+    ```
+
+2. **Create and Activate Virtual Environment:**
+    ```bash
+    python -m venv env
+    env/Scripts/activate (Windows)
+    source env/bin/activate (macOS/Linux)
+    ```
+
+3. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Update Database with Migrations:**
+    ```bash
+    python manage.py migrate
+    ```
+
+5. **Create the .env File:**  
+   Add the necessary settings:
+    ```
+    SECRET_KEY = "your_secret_key_here"
+    ENV = development
+    SQL_DATABASE = your_database_name
+    SQL_USER = your_database_user
+    SQL_PASSWORD = your_database_password
+    SQL_HOST = localhost
+    SQL_PORT = 5432
+    DJANGO_LOG_LEVEL = WARNING
+    ```
+
+6. **Run the Application:**
+    ```bash
+    python manage.py runserver
+    ```
+
+Now your application will run at `http://127.0.0.1:8000/`.
+
+
 ```bash
 # Clone this repository
 $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Stock_App_CH-13.git
@@ -204,6 +251,15 @@ DJANGO_LOG_LEVEL = WARNING
     $ python manage.py migrate
     $ python manage.py runserver
 ```
+
+### Test User Information
+
+For the live demo, you can use the following test user information:
+- **Username:** testuser  
+- **Password:** testpassword123  
+- **Email:** testuser@gmail.com  
+
+This user can only view inventory and add tasks.
 
 
 ## Acknowledgements
