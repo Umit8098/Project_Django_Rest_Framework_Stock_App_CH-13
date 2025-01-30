@@ -196,6 +196,7 @@ Stock App, kullanıcıların stok sistemlerini kolayca yönetebilmesini ve API d
     SQL_PASSWORD = your_database_password
     SQL_HOST = localhost
     SQL_PORT = 5432
+    
     DJANGO_LOG_LEVEL = WARNING
     ```
 
