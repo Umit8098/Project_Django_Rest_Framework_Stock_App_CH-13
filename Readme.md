@@ -30,6 +30,7 @@
 - [How To Use](#how-to-use)
   - [How to Install and Run](#how-to-install-and-run)
   - [Test User Information](#test-user-information)
+- [Key Features](#key-features)
 - [Contact](#contact)
 
 
@@ -215,6 +216,27 @@ For the live demo, you can use the following test user information:
 - **Email:** testuser@gmail.com  
 
 This user can only view inventory and add tasks.
+
+
+## Key Features
+
+- **Stock Management:** Users can add, update and delete stock information.
+- **Grouping by Categories:** Stocks can be arranged by categories.
+- **User Authorization:** Registration, login, password change and authorization-based data management.
+- **Staff and Admin Authorities:** Staff users can fully control all stock and user data.
+- **API Documentation:** Detailed documentation with Swagger and Redoc.
+- **PostgreSQL Support:** Strong database support in the production environment.
+- **Advanced Data Filtering:** Detailed querying opportunity with django-filter.
+
+---
+
+- **Stok Yönetimi:** Kullanıcılar stok bilgilerini ekleyebilir, güncelleyebilir ve silebilir.
+- **Kategoriler ile Gruplama:** Stoklar kategorilere göre düzenlenebilir.
+- **Kullanıcı Yetkilendirme:** Kayıt, giriş, şifre değiştirme ve yetki bazlı veri yönetimi.
+- **Staff ve Admin Yetkileri:** Staff kullanıcılar tüm stok ve kullanıcı verilerini tam kontrol edebilir.
+- **API Dokümantasyonu:** Swagger ve Redoc ile detaylı dokümantasyon.
+- **PostgreSQL Desteği:** Production ortamında güçlü veritabanı desteği.
+- **Gelişmiş Veri Filtreleme:** django-filter ile detaylı sorgulama imkanı.
 
 
 ## Contact
