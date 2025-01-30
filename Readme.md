@@ -197,6 +197,7 @@ Stock App, kullanıcıların stok sistemlerini kolayca yönetebilmesini ve API d
     SQL_HOST = localhost
     SQL_PORT = 5432
     
+    # Logging level
     DJANGO_LOG_LEVEL = WARNING
     ```
 
