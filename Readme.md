@@ -3,7 +3,6 @@
 <h1 align="center">Project_Django_Rest_Framework_Stock_App</h1>
 
 <p align="center"><strong>📦 A modern backend solution that allows users to manage inventory 📦</strong></p>
-<p align="center">📦 Kullanıcıların stok yönetimi yapabilmesini sağlayan modern bir backend çözümü 📦</p>
 
 
 <!-- <div align="center">
@@ -29,7 +28,6 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
-- [About This Project](#about-this-project)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -74,28 +72,51 @@ To test APIs via Postman, you can follow the steps below:
 
 ## Overview
 
+Stock App is a modern backend solution that allows users to easily manage stock systems and integrate with API documentation. Main features:
+
+- **CRUD Transactions:** Full data management specific to user and staff roles.
+- **API Documentation:** Comprehensive API documentation with Swagger and Redoc.
+- **PostgreSQL Support:** High performance database in production environment.
+- **Advanced Debugging:** Django Debug Toolbar and system logging support.
+
+---
+
+Stock App, kullanıcıların stok sistemlerini kolayca yönetebilmesini ve API dokümantasyonu ile entegre çalışabilmesini sağlayan modern bir backend çözümüdür. Başlıca özellikler:
+
+- **CRUD İşlemleri:** Kullanıcı ve staff rollerine özel tam veri yönetimi.
+- **API Dokümantasyonu:** Swagger ve Redoc ile kapsamlı API dokümantasyonu.
+- **PostgreSQL Desteği:** Production ortamında yüksek performanslı veritabanı.
+- **Gelişmiş Hata Ayıklama:** Django Debug Toolbar ve sistem loglama desteği.
+
+---
 
 - Project Swagger and Redoc Documentation Visual
 <!-- ![screenshot](project_screenshot/Stock_App_Swagger_Redoc.gif) -->
 <img src="project_screenshot/Stock_App_Swagger_Redoc.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
+➡ Interface that allows you to easily test API endpoints.
 
 ---
 
 - Stock_App testing on Postman
 <!-- ![screenshot](project_screenshot/Stock_App_Stock_Test.gif) -->
 <img src="project_screenshot/Stock_App_Stock_Test.gif" alt="Stock_App testing on Postman" width="400"/>
+➡ Screen for testing stock management operations with Postman.
 
 ---
 
 - Stock_App User/Authentication Test On Postman
 <!-- ![screenshot](project_screenshot/Stock_App_User_Test.gif) -->
 <img src="project_screenshot/Stock_App_User_Test.gif" alt="Stock_App User/Authentication Test On Postman" width="400"/>
+➡ User verification and authorization test screen.
 
 ---
 
 - Stock_App Project ERD Diagram
 <!-- ![screenshot](project_screenshot/Stock_App_ERD.png) -->
 <img src="project_screenshot/Stock_App_ERD.png" alt="Stock_App Project ERD Diagram" width="400"/>
+➡ ERD diagram showing the application's data model relationships.
+
+---
 
 - API documentation is detailed with Swagger and Redoc. You can access the relevant links via [Swagger](https://umit8103.pythonanywhere.com/swagger/) and [Redoc](https://umit8103.pythonanywhere.com/redoc/).
 
@@ -109,13 +130,13 @@ To test APIs via Postman, you can follow the steps below:
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Django Rest Framework](https://www.django-rest-framework.org/) - Framework used to create REST APIs.
-- [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
+- [Django Rest Framework](https://www.django-rest-framework.org/) - A powerful framework for developing REST APIs.
+- [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - API documentation and testing tools. 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - A powerful tool for debugging operations.
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication 
-- [django-filter](https://django-filter.readthedocs.io/en/stable/)
-- PostgreSQL
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - User authentication and authorization. 
+- [django-filter](https://django-filter.readthedocs.io/en/stable/) - To facilitate data filtering operations.
+- PostgreSQL - High performance database for production environment.
 
 
 ## How To Use
@@ -184,12 +205,6 @@ DJANGO_LOG_LEVEL = WARNING
     $ python manage.py runserver
 ```
 
-## About This Project
-- Stock Management Application API service.
-
-<hr>
-
-- Stock Management Application API service.
 
 ## Acknowledgements
 - [Django Rest Framework](https://www.django-rest-framework.org/)
