@@ -30,7 +30,6 @@
 - [How To Use](#how-to-use)
   - [How to Install and Run](#how-to-install-and-run)
   - [Test User Information](#test-user-information)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 
@@ -64,7 +63,7 @@ You can access the detailed API documentation of the project from the links belo
 
 To test APIs via Postman, you can follow the steps below:
 
-1. Install Postman (if not installed): [Postman İndir](https://www.postman.com/downloads/).
+1. Install Postman (if not installed): [Download Postman](https://www.postman.com/downloads/).
 2. This [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9c7e9dbb-cadb-4cb7-bb41-7399ad499c3e?action=share&creator=17531143) Download and import.
 3. Start testing APIs via Postman.
 
@@ -216,15 +215,6 @@ For the live demo, you can use the following test user information:
 - **Email:** testuser@gmail.com  
 
 This user can only view inventory and add tasks.
-
-
-## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/)
-- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
-- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication
-- [django-filter](https://django-filter.readthedocs.io/en/stable/)
 
 
 ## Contact
