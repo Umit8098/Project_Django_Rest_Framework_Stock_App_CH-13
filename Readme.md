@@ -2,6 +2,9 @@
 
 <h1 align="center">Project_Django_Rest_Framework_Stock_App</h1>
 
+<p align="center"><strong>📦 A modern backend solution that allows users to manage inventory 📦</strong></p>
+<p align="center">📦 Kullanıcıların stok yönetimi yapabilmesini sağlayan modern bir backend çözümü 📦</p>
+
 
 <!-- <div align="center">
   <h3>
