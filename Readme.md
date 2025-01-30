@@ -206,52 +206,6 @@ Stock App, kullanıcıların stok sistemlerini kolayca yönetebilmesini ve API d
 Now your application will run at `http://127.0.0.1:8000/`.
 
 
-```bash
-# Clone this repository
-$ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Stock_App_CH-13.git
-
-# Install dependencies
-    $ python -m venv env
-    $ python -m venv env (for macOs/linux OS)
-    $ env/Scripts/activate (for win OS)
-    $ source env/bin/activate (for macOs/linux OS)
-    $ pip install -r requirements.txt
-    $ python manage.py migrate (for win OS)
-    $ python3 manage.py migrate (for macOs/linux OS)
-
-# Create and Edit .env
-# Add Your SECRET_KEY in .env file
-
-"""
-# example .env;
-
-SECRET_KEY =123456789abcdefg...
-
-# for development(dev) environments
-DEBUG =True
-
-# PostgreSQL settings for product (product) environments
-SQL_DATABASE={your_database_name}
-SQL_USER={your_database_user}
-SQL_PASSWORD={your_database_password}
-SQL_HOST=localhost
-SQL_PORT=5432
-
-# for choices environment
-ENV=development
-# ENV = production
-
-# Logging level
-# DJANGO_LOG_LEVEL=INFO
-DJANGO_LOG_LEVEL = WARNING
-# DJANGO_LOG_LEVEL=ERROR
-"""
-
-# Run the app
-    $ python manage.py migrate
-    $ python manage.py runserver
-```
-
 ### Test User Information
 
 For the live demo, you can use the following test user information:
