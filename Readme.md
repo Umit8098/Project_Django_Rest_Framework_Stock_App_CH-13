@@ -190,6 +190,7 @@ Stock App, kullanıcıların stok sistemlerini kolayca yönetebilmesini ve API d
     ```
     SECRET_KEY = "your_secret_key_here"
     ENV = development
+    # PostgreSQL
     SQL_DATABASE = your_database_name
     SQL_USER = your_database_user
     SQL_PASSWORD = your_database_password
