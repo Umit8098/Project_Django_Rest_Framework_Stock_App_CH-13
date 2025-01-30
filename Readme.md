@@ -111,6 +111,7 @@ To test APIs via Postman, you can follow the steps below:
 - [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
 - [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication 
+- [django-filter](https://django-filter.readthedocs.io/en/stable/)
 - PostgreSQL
 
 
@@ -197,7 +198,7 @@ DJANGO_LOG_LEVEL = WARNING
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@Umit8098](https://github.com/Umit8098)
+- **GitHub** [@Umit8098](https://github.com/Umit8098)
 
-- Linkedin [@umit-arat](https://linkedin.com/in/umit-arat/)
+- **LinkedIn** [@umit-arat](https://linkedin.com/in/umit-arat/)
 <!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
